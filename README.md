@@ -25,5 +25,5 @@ Instale a extensão **open-in-browser** no Visual Studio Code para abrir rapidam
 - Grandes projetos exigem organização e atenção para manter tudo em ordem.
 - Utilize o Marketplace de Extensões do Visual Studio Code para estender a funcionalidade do editor.
 
----
+
 
