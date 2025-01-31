@@ -1,0 +1,96 @@
+* {
+    color: var(--fontColor);
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background: var(--bg);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#msg {
+    margin-bottom: 10px;
+}
+
+ul {
+    font-family: Helvetica, sans-serif;
+    padding-left: 0;
+    line-height: 1.8;
+    width: fit-content;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+li:before {
+    content: "■";
+    color: var(--fontColor);
+    margin-left: -30px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle;
+}
+
+li:last-child:before {
+    content: "○";
+    vertical-align: middle;
+}
+
+.list {
+    list-style: none;
+}
+
+.light-theme {
+    --bg: #00FF00; /* Fundo verde claro luminoso para o tema light */
+    --fontColor: #000000;  /* Texto preto para o tema light */
+    --btnBg: var(--black); /* Botão preto no tema light */
+    --btnFontColor: var(--white); /* Texto branco no botão no tema light */
+}
+
+.dark-theme {
+    --bg: var(--black); /* Fundo preto para o tema dark */
+    --fontColor: #00FF00;   /* Texto verde luminoso no tema dark */
+     --btnBg: var(--white); /* Botão branco no tema dark */
+    --btnFontColor: var(--black); /* Texto preto no botão no tema dark */
+}
+
+:root {
+  --white: #ffffff;
+    --black: #000000;
+}
+
+.button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:focus {
+    outline: none;
+}
