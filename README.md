@@ -21,8 +21,7 @@ Este projeto demonstra como criar um site simples com temas claros e escuros.
 ## Extensão Recomendada
 Instale a extensão **open-in-browser** no Visual Studio Code para abrir rapidamente o site no navegador padrão.
 
-## Observações
-- Grandes projetos exigem organização e atenção para manter tudo em ordem.
+## Observação
 - Utilize o Marketplace de Extensões do Visual Studio Code para estender a funcionalidade do editor.
 
 
